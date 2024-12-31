@@ -80,8 +80,8 @@ jobs:
       inputs:
         buildType: 'specific'
         project: $(System.TeamProject)
-        definition: '4'  # $(Build.DefinitionId)
-        buildVersionToDownload: 'latest'
+        definition: '2'  # $(Build.DefinitionId)
+        # buildVersionToDownload: 'latest'
         downloadType: 'single'
         artifactName: 'drop'
         downloadPath: '$(build.artifactstagingdirectory)' #'$(Build.SourcesDirectory)'
