@@ -72,7 +72,7 @@ jobs:
   dependsOn: Job_1
   condition: succeeded()
   pool:
-    name: 'Neotechagentpool'  # Ensure this is the correct pool with your self-hosted agent
+    name: 'neelimapool'  # Ensure this is the correct pool with your self-hosted agent
   steps:
     # Step 1: Download build artifacts
     - task: DownloadBuildArtifacts@0
